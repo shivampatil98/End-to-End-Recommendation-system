@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+numpy
+PyYAML
+streamlit
+-e . # look for setup.py in the current directory
