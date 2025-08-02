@@ -17,6 +17,6 @@ class TrainingPipeline:
         :return: none
         """
         self.data_ingestion.initiate_data_ingestion()
-        #self.data_validation.initiate_data_validation()
-        #self.data_transformation.initiate_data_transformation()
-        #self.model_trainer.initiate_model_trainer() 
+        self.data_validation.initiate_data_validation()
+        self.data_transformation.initiate_data_transformation()
+        self.model_trainer.initiate_model_trainer() 
